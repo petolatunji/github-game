@@ -1,0 +1,170 @@
+*{
+    text-align: center;
+}
+
+body {
+	    margin: 0;
+	    font-family: monospace,sans-serif;
+	    background-size: 100%;
+	    background-repeat: no-repeat;
+	    min-width: 40px;
+	}
+	
+	.username{
+    margin-top: 10px;
+    width: 80%;
+    height: 40px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: solid;
+	}
+
+    input[type=text]:focus{
+        background-color:rgb(0, 195, 255);
+    }
+		
+	
+	.text{
+	    padding-top: 200px;
+	    margin-bottom: -5px;
+	    font-size: 40px;
+        font-weight: 20%;
+	}
+	
+	#confirm-players {
+	    font-size: 32px;
+	    margin: 15px 0 10px;
+	    padding-bottom: 10px;
+	}
+	
+#start-button,.button{
+	    font-size: 20px;
+	    font-weight: 10%;
+	    border: none;
+	    width: 200px;
+	    word-spacing: 3px;
+	    border-radius: 10px;
+	    height: 50px;
+	    background-color: green;
+	    color: white;
+        cursor: pointer;
+	}
+	
+	#start-battle {
+	    font-size: 20px;
+	    font-weight: 10%;
+	    border: none;
+	    width: 200px;
+	    word-spacing: 3px;
+	    border-radius: 10px;
+	    height: 50px;
+	    background-color: green;
+	    color: white;
+        cursor: pointer;  
+	}
+	
+	#reselect-players {
+	    font-size: 18px;
+	    border: none;
+	    word-spacing: 3px;
+	    width: 200px;
+	    border-radius: 10px;
+	    height: 40px;
+	    background-color: mediumslateblue;
+	    color: white;
+	    margin: 10px auto;
+        cursor: pointer;
+	}
+
+    #start-again{
+        font-size: 18px;
+	    border: none;
+	    word-spacing: 3px;
+	    width: 200px;
+	    border-radius: 10px;
+	    height: 40px;
+	    background-color: green;
+	    color: white;
+	    margin: 10px auto;
+        cursor: pointer;
+    }
+
+    #first-player,
+	#second-player {
+	    display: none;
+	}
+
+	.score {
+	    font-size: 16px;
+	    font-weight: bold;
+	    padding: 5px;
+	    text-align: center;
+	    display: none;
+	}
+	
+
+	#confirm-page,
+	#winner {
+	    display: none;
+	    padding: 5px 20px;
+	    margin: auto;
+	}
+	
+	
+	
+	#control{
+	    display: none;
+	}
+	
+	
+	#user{
+	    width: 65%;
+	    margin: auto;
+	    border: 3px solid green;
+	    padding: 10px;
+	}
+	
+	.playersDetails {
+	    padding-top: 0;
+	    margin-bottom: 0px;
+	}
+	
+	.myUser {
+	    margin: auto;
+	    float: left;
+	}
+	
+	ul {
+	    padding: 0 25px;
+	    display: inline-block;
+	    width: 30%;
+	}
+	
+	li {
+	    list-style: none;
+	    padding: 5px;
+	    border: 2px solid gray;
+	    text-align: center;
+	    font-size: medium;
+	    letter-spacing: 0.5px;
+	}
+	
+	li .avatar {
+	    height: 150px;
+	    width: 150px;
+	    padding: 5px;
+	}
+
+	#error-message,#error-message2{
+		margin-top: 15px;
+		font-weight: bold;
+		font-size: 32px;
+		font-style: italics;
+	}
+
+	#confirm-players{
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
